@@ -3,6 +3,7 @@
 #include<string>
 #include<stack>
 using namespace std;
+string s;
 int precedence(char c)
 {
     if(c == '^')
@@ -52,6 +53,7 @@ string InfixToPostfix(string exp)
 }
 int main()
 {
-    string s = "(a-b/c)*(a/k-l)";
+    cout<<"Enter infix expression";
+    cin>>s;
     cout << InfixToPostfix(s) << endl;
 }
