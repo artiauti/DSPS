@@ -23,7 +23,7 @@ void counts();
     stack<char> s; 
      int len=0;
        cout<<"Enter string:";
-       
+       cin>>s1;
      for(i=0;s1[i]!='\0';i++){
 len++;
 }
